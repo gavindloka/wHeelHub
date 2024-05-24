@@ -1,0 +1,104 @@
+.footerContainer{
+    width: 100%;
+    background-color: rgba(251, 148, 3, 0.913);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 0;
+    transition: all 0.4s eas;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.columnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 1vh;
+}
+
+.columnContainerSocials{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    gap: 1vh;
+}
+
+.social-media-logo-container{
+    display: flex;
+    flex-direction: row;    
+    gap: 1.5vh;
+    cursor: pointer;
+}
+
+.columnHeader{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.columnDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.columnDetail :hover{
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.social-media-logo{
+    width: 20px;
+}
+
+@media (max-width: 1024px){
+    .footerContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+
+    .columnContainer{
+        border: 2px solid black;
+        width: 75%;
+        margin: 1%;
+        border-radius: 0.5em ;
+        gap: 0;
+    }
+
+    .columnDetail{
+        font-size: 1.5vh;
+        height: 0;
+        transform: scaleY(0);
+    }
+
+    .columnContainerSocials{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        gap: 1vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 3vh 0;
+    }
+
+    .columnHeader:hover ~ .columnDetail, .columnDetail:hover{
+        height: 100%;
+        transform: scaleY(1);
+        padding-top: 1vh;
+    }
+    
+    .social-media-logo-container{
+        display: flex;
+        flex-direction: row;    
+        column-gap: 1.5vh;
+        filter: invert(1);
+    }
+}

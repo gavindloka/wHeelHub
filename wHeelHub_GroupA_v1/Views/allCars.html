@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/header.css">
+    <link rel="stylesheet" href="../Styles/particle.css">
+    <!-- <link rel="stylesheet" href="../Styles/home.css"> -->
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="../Styles/allCars.css">
+    <link rel="icon" type="image/x-icon" href="../Assets/logo.png">
+    
+    <title>wHeel Hub</title>
+</head>
+
+<body>
+
+    <canvas id="canvas1"></canvas>
+
+    <div class="header-wrapper">
+        <div class="navbar">
+            <div class="navbarMenuLogo">
+                <div class="navbarMenuLogoItem">
+                    <a href="./home.html">
+                        <img src="../Assets/logo.png" alt="" class="logoImage">
+                    </a>
+                </div>
+                <div class="navbarMenuLogoItem dropdown">
+                    <div class="hiddenIcon">&#9776;</div>
+                </div>
+                <div class="dropdownMenu">
+                    <div class="dropdownItem"><a href="./home.html" class="dropdownLink">Home</a></div>
+                    <div class="dropdownItem"><a href="./allCars.html" class="dropdownLink">Promotion</a></div>
+                    <div class="dropdownItem"><a href="" class="dropdownLink">All Cars</a></div>
+                    <div class="dropdownItem"><a href="" class="dropdownLink">About Us</a></div>
+                    <div class="dropdownItem"><a href="./register.html" class="dropdownLink">Register</a></div>
+                </div>
+            </div>
+            <div class="navbarMenu">
+                <div class="navbarItem"><a href="./home.html" class="navbarLink">Home</a></div>
+                <div class="navbarItem"><a href="./allCars.html" class="navbarLink">Promotion</a></div>
+                <div class="navbarItem"><a href="" class="navbarLink">All Cars</a></div>
+                <div class="navbarItem"><a href="" class="navbarLink">About Us</a></div>
+            </div>
+            <div class="navbarMenu">
+                <a href="./register.html" class="registerLink">Register</a>
+            </div>
+        </div>
+    </div>
+    <div class="midWrapper">
+        <div class="allCarsTitle">
+            All Cars
+        </div>
+        <div class="allCarsContainer">
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2023_Mirai.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 405.000.000
+                    </div>
+                    <div class="name">
+                        Mirai (202)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_GR_Corolla.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 450.000.000
+                    </div>
+                    <div class="name">
+                        GR Corolla (2023)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_grand_highlander.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 200.000.000
+                    </div>
+                    <div class="name">
+                        Grand Highlander (2024)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_land_cruiser.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 1.000.000.000
+                    </div>
+                    <div class="name">
+                        Land Cruiser (2024)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_prius_prime.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 500.000.000
+                    </div>
+                    <div class="name">
+                        Prius Prime (2024)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_RAV4.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 270.000.000
+                    </div>
+                    <div class="name">
+                        RAV4 (2024)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2024_venza.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 600.000.000
+                    </div>
+                    <div class="name">
+                        Venza (2024)
+                    </div>
+                </div>
+            </div>
+            <div class="allCarsItemBox">
+                <div>
+                    <img src="../Assets/product_card/2025_Camry.jpeg" alt="car" class="allCarsItemImg">
+                </div>
+                <div class="allCarsItemDesc">
+                    <div class="price">
+                        Start From Rp 317.000.000
+                    </div>
+                    <div class="name">
+                        Camry (2025)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerContainer">
+        <div class="columnContainer">
+
+            <div class="columnHeader">wHeel Hub</div>
+            
+            <div class="columnDetail">
+                <div>About Us</div>
+                <div>Private Policy</div>
+                <div>Terms and Conditions</div>
+            </div>
+            
+        </div>
+        <div class="columnContainer">
+
+            <div class="columnHeader">Customer Service</div>
+            
+            <div class="columnDetail">
+                <div>Help Center</div>
+                <div>Track Progress</div>
+                <div>Chat Bot</div>
+                <div>Hub Care</div>
+            </div>
+            
+        </div>
+        
+        <div class="columnContainer">
+
+            <div class="columnHeader">Shop</div>
+            
+            <div class="columnDetail">
+                <div>Shop Cars</div>
+                <div>Shop Accessories</div>
+                <div>Shop Wraps</div>
+            </div>
+            
+        </div>
+
+        <div class="columnContainer">
+            <div class="columnHeader">Action Hub</div>
+            <div class="columnDetail">
+                <div>Helper</div>
+                <div>Media Services</div>
+                <div>Mobile Hub</div>
+                <div>Car Showcases</div>
+            </div>
+        </div>
+        
+        <div class="columnContainerSocials">
+            <div>Follow Us</div>
+            <div  class="social-media-logo-container">
+                <div><img src="../Assets/footer/FacebookIcon.png" alt="" class="social-media-logo"></div>
+                <div><img src="../Assets/footer/WhatsappIcon.png" alt="" class="social-media-logo"></div>
+                <div><img src="../Assets/footer/InstagramIcon.png" alt="" class="social-media-logo"></div>
+            </div>
+            <div>Address: Joglo United Pluit Street</div>
+            <div>LC116 &#9734; Gavind &#9734; Clement</div>
+        </div>
+    </div>
+    <script src="../Scripts/allCars.js"></script>
+    <script src="../Scripts/particle.js"></script>
+</body>
+
+</html>

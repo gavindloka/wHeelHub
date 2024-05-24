@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wHeel Hub</title>
+    <link rel="stylesheet" href="../Styles/register.css">
+</head>
+
+<canvas id="canvas1"></canvas>
+<body>
+    
+    <div class="register">
+            
+            
+
+            <form action="" class="card" id="myForm">
+
+                <div class="back-section">
+
+                    <div class="back">
+                        <a href="./home.html">&#10550;</a>
+                    </div>
+                    
+                </div>
+
+                <!-- <div class="register-side"></div> -->
+                
+                <div class="input-section">
+
+                    <div class="center-positioning">
+                        <img src="../Assets/logo.png" class="img-logo">
+                    </div>
+                    
+                    <span class="header">Register</span>
+
+                    <div class="default-positioning">
+
+                            <label for="username">Username</label>
+                            <input type="text" id="username" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        
+                    </div>
+                    
+                    <div class="second">
+                        
+                        <div class="pass">
+
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+
+                        </div>
+
+                        <div class="pass">
+
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                        </div>
+
+                    </div>
+
+                    <div class="center-positioning">
+
+                        <label>Gender</label>
+
+                        <div class="radio-group">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" required>        
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" required>
+                        </div>
+
+                    </div>
+
+                    <div class="default-positioning">
+
+                        <label for="birthday">Date of Birth</label>
+                        <input type="date" id="birthday" name="birthday" required>
+
+                    </div>
+                    <div class="center-positioning">
+
+                        <div class="terms-container">
+                            <input type="checkbox" class="newsletter-box" id="terms" required>
+                            <label for="terms">I agree with terms and conditions</label>
+                        </div>
+
+                    </div>
+                    <div class="center-positioning">
+                        <button>Register!</button>
+                    </div>
+                </div>
+            </form>
+
+
+    </div>
+    <script src="../Scripts/register.js"></script>
+    <script src="../Scripts/particle.js"></script>
+</body>
+</html>

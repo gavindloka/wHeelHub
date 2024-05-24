@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wHeel Hub</title>
+    <link rel="stylesheet" href="../Styles/header.css">
+    <link rel="stylesheet" href="../Styles/particle.css">
+    <link rel="stylesheet" href="../Styles/home.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="icon" type="image/x-icon" href="../Assets/logo.png">
+
+</head>
+
+<body>
+
+    <canvas id="canvas1"></canvas>
+
+    <div class="header-wrapper">
+        <div class="navbar">
+            <div class="navbarMenuLogo">
+                <div class="navbarMenuLogoItem">
+                    <a href="./home.html">
+                        <img src="../Assets/logo.png" alt="" class="logoImage">
+                    </a>
+                </div>
+                <div class="navbarMenuLogoItem dropdown">
+                    <div class="hiddenIcon"><img src="../Assets/ui/down_down_arrow.png" alt=""></div>
+                </div>
+                <div class="dropdownMenu">
+                    <div class="dropdownItem"><a href="./home.html" class="dropdownLink">Home</a></div>
+                    <div class="dropdownItem"><a href="./promotion.html" class="dropdownLink">Promotion</a></div>
+                    <div class="dropdownItem"><a href="./allCars.html" class="dropdownLink">All Cars</a></div>
+                    <div class="dropdownItem"><a href="" class="dropdownLink">About Us</a></div>
+                    <div class="dropdownItem"><a href="./register.html" class="dropdownLink">Register</a></div>
+                </div>
+            </div>
+            <div class="navbarMenu">
+                <div class="navbarItem"><a href="./home.html" class="navbarLink">Home</a></div>
+                <div class="navbarItem"><a href="./promotion.html" class="navbarLink">Promotion</a></div>
+                <div class="navbarItem"><a href="./allCars.html" class="navbarLink">All Cars</a></div>
+                <div class="navbarItem"><a href="" class="navbarLink">About Us</a></div>
+            </div>
+            <div class="navbarMenu">
+                <a href="./register.html" class="registerLink">Register</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="promotion">
+            
+        <div class="slider">
+
+            <div class="slides">
+
+                <div class="slide">
+                    <img src="../Assets/promotion_banner/2023_mirai.jpeg" alt="">
+                    <!-- <h2>2023 Mirai</h2> -->
+                </div>
+
+                <div class="slide">
+                    <img src="../Assets/promotion_banner/2024_corola_hatchback.jpeg" alt="">
+                    <!-- <h2>2024 Corola Hatchback</h2> -->
+                </div>
+
+                <div class="slide">
+                    <img src="../Assets/promotion_banner/2024_corola_hybrid.jpeg" alt="">
+                    <!-- <h2>2024 Corola Hybrid</h2> -->
+                </div>
+
+                <div class="slide">
+                    <img src="../Assets/promotion_banner/2024_highlander_hybrid.jpeg" alt="">
+                    <!-- <h2>2024 Highlander Hybrid</h2> -->
+                </div>
+
+                <div class="slide">
+                    <img src="../Assets/promotion_banner/2024_sienna.jpeg" alt="">
+                    <!-- <h2>2024 Sienna</h2> -->
+                </div>
+
+            </div>
+
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <div class="btnCarousel">
+
+                <!-- <i class="fa fa-chevron-left" id="left"></i>
+    
+                <i class="fa fa-chevron-right" id="right"></i> -->
+
+                    <div class="fa" id="left">
+                        &#8249;
+                    </div>
+                    <div class="fa" id="right">
+                        &#8250;
+                    </div>
+
+            </div>                    
+
+        </div>
+
+    </div>
+
+    <div class="shortDesc">
+        
+        <div class="headerDescDiv">
+            Redefining The Way How You <div class="drive">DRIVE.</div>
+        </div>
+        
+        <div class="descriptionDiv">
+            Wheel Hub, a pioneer in automotive retail since 1995, is expanding its reach with the launch of a cutting-edge website. Our showrooms, spread across the United States, have long been synonymous with quality cars and accessories. Now, our online platform aims to redefine the automotive shopping experience.
+        </div>
+        <div class="coolBtnDiv">
+            <button class="coolBtn"><a href="./allCars.html">See All Cars ></a></button>
+        </div>
+
+        
+    </div>
+
+    <div class="featuredCars">
+        <h1 class="featuredCarsTitle">Featured Cars</h1>
+        <div class="cardContainer">
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2023_Mirai.jpeg" alt="">
+                <H3>2023 Mirai</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_GR_Corolla.jpeg" alt="">
+                <H3>2024 GR Corolla</H3>
+            </div>
+            
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_grand_highlander.jpeg" alt="">
+                <H3>2024 Grand Highlander</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_land_cruiser.jpeg" alt="">
+                <H3>2024 Land Cruiser</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_prius_prime.jpeg" alt="">
+                <H3>2024 Prius Prime</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_RAV4.jpeg" alt="">
+                <H3>2024 RAV4</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2024_venza.jpeg" alt="">
+                <H3>2024 Venza</H3>
+            </div>
+
+            <div class="itemCard">
+                <img src="../Assets/product_card/2025_Camry.jpeg" alt="">
+                <H3>2025 Camry</H3> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footerContainer">
+        <div class="columnContainer">
+
+            <div class="columnHeader">wHeel Hub</div>
+            
+            <div class="columnDetail">
+                <div>About Us</div>
+                <div>Private Policy</div>
+                <div>Terms and Conditions</div>
+            </div>
+            
+        </div>
+        <div class="columnContainer">
+
+            <div class="columnHeader">Customer Service</div>
+            
+            <div class="columnDetail">
+                <div>Help Center</div>
+                <div>Track Progress</div>
+                <div>Chat Bot</div>
+                <div>Hub Care</div>
+            </div>
+            
+        </div>
+        
+        <div class="columnContainer">
+
+            <div class="columnHeader">Shop</div>
+            
+            <div class="columnDetail">
+                <div>Shop Cars</div>
+                <div>Shop Accessories</div>
+                <div>Shop Wraps</div>
+            </div>
+            
+        </div>
+
+        <div class="columnContainer">
+
+            <div class="columnHeader">Action Hub</div>
+            
+            <div class="columnDetail">
+                <div>Helper</div>
+                <div>Media Services</div>
+                <div>Mobile Hub</div>
+                <div>Car Showcases</div>
+            </div>
+            
+        </div>
+        
+        <div class="columnContainerSocials">
+            <div>Follow Us</div>
+            <div  class="social-media-logo-container">
+                <div><img src="../Assets/footer/FacebookIcon.png" alt="" class="social-media-logo"></div>
+                <div><img src="../Assets/footer/WhatsappIcon.png" alt="" class="social-media-logo"></div>
+                <div><img src="../Assets/footer/InstagramIcon.png" alt="" class="social-media-logo"></div>
+            </div>
+            <div>Address: Joglo United Pluit Street</div>
+            <div>LC116 &#9734; Gavind &#9734; Clement</div>
+        </div>
+    </div>
+    <script src="../Scripts/particle.js"></script>
+    <script src="../Scripts/home.js"></script>
+</body>
+
+</html>
