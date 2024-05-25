@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         function updateSlide() {
             const slideWidth = $('.slider').width();
             const newMarginLeft = -currentIndex * slideWidth / totalSlides * 5;
-            $('.slides').animate({marginLeft: newMarginLeft}, 500);
+            $('.slides').animate({marginLeft: newMarginLeft}, 100);
             $('.dots li').removeClass('active');
             $('.dots li').eq(currentIndex).addClass('active');
         }
