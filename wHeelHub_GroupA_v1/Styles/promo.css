@@ -18,7 +18,7 @@ a{
 
 .promoContainer{
     display: flex;
-    width: 90%;
+    width: 85%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
