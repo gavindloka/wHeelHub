@@ -67,3 +67,4 @@ document.addEventListener("scroll", function() {
         title.classList.remove('visible');
     }
 });
+
