@@ -68,3 +68,29 @@ document.addEventListener("scroll", function() {
     }
 });
 
+document.addEventListener("scroll", function() {
+    const title = document.querySelector('.galleryTitle');
+    const rect = title.getBoundingClientRect();
+    const triggerBottom = window.innerHeight / 5 * 3;
+
+    if (rect.top < triggerBottom) {
+        title.classList.add('visible');
+    } else {
+        title.classList.remove('visible');
+    }
+});
+
+document.addEventListener("scroll", function() {
+    const cards = document.querySelectorAll('.galleryCard');
+    const triggerBottom = window.innerHeight / 5 * 3;
+
+    cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        if (rect.top < triggerBottom) {
+            card.classList.add('visible');
+        } else {
+            card.classList.remove('visible');
+        }
+    });
+});
+
