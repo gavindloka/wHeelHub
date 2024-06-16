@@ -322,3 +322,8 @@ body{
         width: 90%;
     }
 }
+
+.columnDetail div a{
+    text-decoration: none;
+    color: black;
+}
